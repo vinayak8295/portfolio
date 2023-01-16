@@ -1,57 +1,344 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-	<section class="about" id = 'about'>
-	  <div class="max-width">
-	  
-	  	<div class="about-content">
-	  		<div class="column left">
-	  			
-	  		</div>
-	  		<div class="column right">
-	  			<a href="https://drive.google.com/drive/folders/19lrMDYWfCi1iczejBIJfuy8eiygzUdzu?usp=sharing">2. client server program using TCP</a>
-	  		</div>
-			  <div class="column right">
-				<a href="https://drive.google.com/drive/folders/1b5BUU85JGjygum630t3SrG2xYSmpY_5E?usp=sharing">3. client server program using UDP</a>
-			</div>
-			<div class="column right">
-				<a href="https://drive.google.com/drive/folders/1-BlS-FbXqz-5Z6L-m09EfPnv5u0H2Zpt?usp=sharing">4. UDP with connect</a>
-			</div>
-			<div class="column right">
-				<a href="https://drive.google.com/drive/folders/1PaZuSEZWBK8fx5EEhFem4lge2rAHkoXL?usp=sharing">5. TCP using fork call</a>
-			</div>
-			<div class="column right">
-				<a href="https://drive.google.com/drive/folders/19iYSdECBDIFGyxAV3zzf84F1hgVbKXzr?usp=sharing">6. TCP and UDP program using select</a>
-			</div>
-			<div class="column right">
-				<a href="https://drive.google.com/drive/folders/1mnOoMR999-AgVpIeCkiinStCOasPqAi6?usp=sharing">7. UNIX domain datagram sockets</a>
-			</div>
-			<div class="column right">
-			  <a href="https://drive.google.com/drive/folders/18rKVe8qwO12jaAZep1fo2Gpl6u5WmMUN?usp=sharing">8. alarm in read</a>
-		  </div>
-		  <div class="column right">
-			  <a href="https://drive.google.com/drive/folders/1l6j0MpzymSuF7RON_vTK-fnSfeL_WQR3?usp=sharing">9. UDP program to verify received response</a>
-		  </div>
-		  <div class="column right">
-			  <a href="https://drive.google.com/drive/folders/1upTZwkTTsOi7meAnZ2FpNiBxTb0pfJxn?usp=sharing">10. TCP program on different systems</a>
-		  </div>
-		  <div class="column right">
-			  <a href="https://drive.google.com/drive/folders/19TFZMXKBgH9zxs4K5NT50dSGzR414JgD?usp=sharing">11. TCP using select and without fork</a>
-		  </div>
-		  <div class="column right">
-			<a href="https://drive.google.com/drive/folders/1n3Foth8OgGwjCGcO5K65eeTvXmdg3saD">EEE</a>
-		</div>
-		<div class="column right">
-			<a href="https://drive.google.com/file/d/1f9oPCY20qlGZ8i4uTxJ28qL5cByAN0pL/view?usp=sharing">ECE</a>
-		</div>
-	  		
-	  	</div>
-	  </div>
-	</section>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<header>
+
+    <div class="user">
+        <img src="res/vin.png" >
+        <h3 class="name"> Vinayak Chachra</h3>
+        <p class="post">Web Developer</p>
+    </div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#education">education</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#dailyProgress">Daily Progress</a></li>
+            <li><a onclick="mode()">Toggle dark mode</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<div id="menu" class="fas fa-bars"></div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <h3>HI THERE !</h3>
+    <h1>I'M <span>Vinayak Chachra</span></h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio deserunt aspernatur fugiat minus enim ullam repudiandae sint sed magnam tenetur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, at.
+    </p>
+    <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+<h1 class="heading"> <span>about</span> me </h1>
+
+<div class="row">
+
+    <div class="info">
+        <h3> <span> name : </span> Vinayak Chachra </h3>
+        <h3> <span> age : </span> 22 </h3>
+        <h3> <span> qualification : </span> Btech </h3>
+        <h3> <span> post : </span> front end developer </h3>
+        <a href="#"><button class="btn"> download CV <i class="fas fa-download"></i> </button></a>
+    </div>
+
+    <div class="counter">
+
+      
+        </div>
+
+    </div>
+
+</div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- education section starts  -->
+
+<section class="education" id="education">
+
+<h1 class="heading"> my <span>education</span> </h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2016</span>
+        <h3>front end development</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2017</span>
+        <h3>front end development</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2018</span>
+        <h3>front end development</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2019</span>
+        <h3>front end development</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2020</span>
+        <h3>front end development</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2021</span>
+        <h3>front end development</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
+    </div>
+
+</div>
+
+</section>
+
+<!-- education section ends -->
+
+<!-- portfolio section starts  -->
+
+<section class="portfolio" id="portfolio">
+
+<h1 class="heading"> my <span>portfolio</span> </h1>
+
+<!-- <div class="box-container">
+    <div >  
+        <button>live</button>
+        <button>soucre code</button>
+        </div>  
+    <div class="box">   
+        <img src="res/img1.png"  alt="">     
+        
+    </div>
+    
+
+    <div class="box">
+        <img src="images/img2.jpg" alt="">
+    </div>
+
+    <div class="box">
+        <img src="images/img3.jpg" alt="">
+    </div>
+
+    <div class="box">
+        <img src="images/img4.jpg" alt="">
+    </div>
+
+    <div class="box">
+        <img src="images/img5.jpg" alt="">
+    </div>
+
+    <div class="box">
+        <img src="images/img6.jpg" alt="">
+    </div>
+
+</div> -->
+
+<table  >
+    <!-- <tr>
+        <th>Name</th>
+        <th>Location</th>
+        <th>Photo</th>
+    </tr> -->
+    <!-- <tr>
+        <td>Live</td>
+        <td>Source</td>
+        <td><img src="res/img1.png" height=200px width=180px></td>
+       
+    </tr> -->
+</table>
+
+</section>
+
+<!-- portfolio section ends -->
+
+<!-- Daily progress section starts -->
+<section class="dailyProgress" id="dailyProgress">
+
+    <h1 class="heading"> Daily <span>Progress</span> </h1>
+    <table>
+        <tr>
+          <th>Day</th>
+          <th>Progress</th>
+        </tr>
+        <tr>
+          <td>Day 1</td>
+          <td>
+                <li>
+                    Learned how to send request on servicedesk
+                </li>
+                <li>
+                    learned about onelogin
+                </li>
+                <li>
+                    Basics of JS like variables, data types, interaction,basic operators etc.
+                </li>
+           </td>
+        </tr>
+        <tr>
+            <td>Day 2</td>
+            <td>
+                  <li>
+                    Basics of JS like comaprisons,conditional branching, logical operators,loops etc.
+                  </li>
+                  <li>
+                    Got Confluence access
+                  </li>
+                  <li>
+                    implemented the calculator project
+                  </li>
+             </td>
+          </tr>
+          <tr>
+            <td>Day 3</td>
+            <td>
+                  <li>
+                    learned about objects,this ,garbage collection, optional changing
+                  </li>
+                  <li>
+                    Refactor my calculator code and fix sum bugs(clear button was not working properly)
+                  </li>
+                  <li>
+                    completed HTML part of frontend master(Brian HoltStripe course)
+                  </li>
+                  <li>
+                    made a simple blog website with basic HTML
+                  </li>
+             </td>
+          </tr>
+          <tr>
+            <td>Day 4</td>
+            <td>
+                  <li>
+                    learned basics about hotel environment, channel manager
+                  </li>
+                  <li>
+                    learned about different datatypes in js
+                  </li>
+                  <li>
+                    learned about promise and async
+                  </li>
+                  <li>
+                    had discussion with om sir with regarding our internship 
+                  </li>
+             </td>
+          </tr>
+          <tr>
+            <td>Day 5</td>
+            <td>
+                  <li>
+                    had a discussion with my buddie  regarding my learning path
+                  </li>
+                  <li>
+                    learned about errors try, catch and finally
+                  </li>
+                  <li>
+                    Started with the assignment(login page)
+                  </li>
+             </td>
+          </tr>
+          <tr>
+            <td>Day 6</td>
+            <td>
+                  <li>
+                    completed 40% of js udemy course
+                  </li>
+                  <li>
+                    Completed the front end of the assignment(login page)
+                  </li>
+             </td>
+          </tr>
+          <tr>
+            <td>Day 7</td>
+            <td>
+                  <li>
+                    Learned about firebase
+                  </li>
+                  <li>
+                    completed the login page assignment
+                  </li>
+                  <li>
+                    learned how browser works
+                  </li>
+             </td>
+          </tr>
+          <tr>
+            <td>Day 8</td>
+            <td>
+                  <li>
+                    Completed the basic layout of the portfolio website
+                  </li>
+                  <li>
+                    learned about document API
+                  </li>
+             </td>
+          </tr>
+      </table>
 
 
+</section>
+<!-- Daily progress section ends -->
+<!-- scroll top button  -->
+
+<a href="#home" class="top">
+    <img src="images/scroll-top-img.png" alt="">
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
 
 
 </body>
