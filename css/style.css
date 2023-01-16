@@ -9,6 +9,9 @@
     text-transform: capitalize;
     transition: all .2s linear;
 }
+a{
+    color: white;
+}
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
